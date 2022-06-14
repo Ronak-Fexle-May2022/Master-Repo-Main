@@ -1,14 +1,14 @@
 public class StudentData {
     public StudentData(){
         //insert Student Data
-       /* Student__c s1=new Student__c();
+       Student__c s1=new Student__c();
         s1.Name__c='Lokesh';
         s1.RollNumber__c=5511;
         s1.Father_Name__c='Ratan';
         s1.Mobile_Number__c=968574545;
         s1.Father_Mobile_Number__c='8974563212';
         s1.HomePhone__c='547895412';
-        s1.Email__c='vishal@gmail.com';
+        s1.Email__c='lokesh@gmail.com';
         s1.Address__c='Bhilwara';
         s1.City__c='Bhilwara';
         s1.State__c='Rajasthan';
@@ -44,10 +44,9 @@ public class StudentData {
         s1.Bank_Phone_Number__c='01486261829';
         s1.City__c='Bhilwara';
         s1.State__c='Rajasthan';
-        insert s1;*/
+        insert s1;
         List<Student__c> studentList= [select id,Name,RollNumber__c,Father_Name__c,Email__c,City__c,Overall_Grade__c From Student__c ];
          system.debug('check student data: '+ studentList);
-        //,Name,RollNumber__c,Father_Name__c,Email__c
             
    }
 
