@@ -154,29 +154,47 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Email_id__c</fullName>
+<<<<<<<< HEAD:src/objects/College__c.object
+        <fullName>Department__c</fullName>
         <externalId>false</externalId>
-        <label>Email id</label>
+        <label>Department</label>
+        <length>10</length>
+========
+        <fullName>Dream_World_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Dream World Title</label>
+        <length>40</length>
+>>>>>>>> DreamWorld_V1:src/objects/Dream_World__c.object
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
+        <type>Text</type>
         <unique>false</unique>
     </fields>
-    <label>Demo_Assignment5</label>
-    <fields></fields>
-    <label>Demo_Assignment4</label></label>
+<<<<<<<< HEAD:src/objects/College__c.object
+    <label>College</label>
+========
+    <label>Dream World</label>
+>>>>>>>> DreamWorld_V1:src/objects/Dream_World__c.object
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Demo_Assignment4 Name</label>
+<<<<<<<< HEAD:src/objects/College__c.object
+        <label>College Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Demo_Assignments5</pluralLabel>
+    <pluralLabel>Colleges</pluralLabel>
+========
+        <label>Dream World Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Dream Worlds</pluralLabel>
+>>>>>>>> DreamWorld_V1:src/objects/Dream_World__c.object
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
