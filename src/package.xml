@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>HelloWorld1</members>
+        <members>HelloWorld_1</members>
+        <members>HelloWorld_2</members>
+        <members>MyQueryExample</members>
+        <members>StudentData</members>
         <name>ApexClass</name>
     </types>
     <types>
         <members>College__c.Department__c</members>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
         <members>Contact.Pan_Card__c</members>
         <members>Contact.Year_Of_Class__c</members>
         <members>Contact.student_no__c</members>
         <members>Dream_World__c.Dream_World_Title__c</members>
+        <members>Lead.CurrentGenerators__c</members>
+        <members>Lead.NumberofLocations__c</members>
+        <members>Lead.Primary__c</members>
+        <members>Lead.ProductInterest__c</members>
+        <members>Lead.SICCode__c</members>
         <members>Mentor__c.Employee__c</members>
         <members>Mentor__c.Trainer__c</members>
+        <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.MainCompetitors__c</members>
+        <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Pan_Card__c.Address__c</members>
         <members>Pan_Card__c.Father_Name__c</members>
@@ -77,23 +92,34 @@
         <members>Company_CEO__c</members>
         <members>Dream_World__c</members>
         <members>Employee__c</members>
+        <members>Mentor__c</members>
         <members>Pan_Card__c</members>
         <members>StudentSubjects__c</members>
         <members>Student__c</members>
+        <members>Subject__c</members>
         <members>Teacher__c</members>
         <members>Trainees__c</members>
         <members>Trainer__c</members>
         <members>Year_Of_Class__c</members>
+        <members>myobj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>College__c</members>
+        <members>Company_CEO__c</members>
+        <members>Employee__c</members>
+        <members>Pan_Card__c</members>
+        <members>StudentSubjects__c</members>
+        <members>Student__c</members>
+        <members>Year_Of_Class__c</members>
         <name>CustomTab</name>
     </types>
     <types>
         <members>College__c-College Layout</members>
-        <members>Dream_World__c-Dream World Layout</members>
+        <members>Company_CEO__c-Company CEO Layout</members>
         <members>Employee__c-Employee Layout</members>
+        <members>Mentor__c-Mentor Layout</members>
+        <members>Pan_Card__c-Pan Card Layout</members>
         <members>StudentSubjects__c-StudentSubjects Layout</members>
         <members>Student__c-Registrar Layout</members>
         <members>Student__c-Teacher Layout</members>
@@ -102,7 +128,13 @@
         <members>Trainees__c-Trainees Layout</members>
         <members>Trainer__c-Trainer Layout</members>
         <members>Year_Of_Class__c-Year Of Class Layout</members>
+        <members>myobj__c-myobj Layout</members>
         <name>Layout</name>
+    </types>
+    <types>
+        <members>Student__c.Registrar</members>
+        <members>Student__c.Teacher</members>
+        <name>RecordType</name>
     </types>
     <version>53.0</version>
 </Package>
