@@ -654,7 +654,7 @@
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>Registrar</fullName>
-        <active>false</active>
+        <active>true</active>
         <label>Registrar</label>
     </recordTypes>
     <recordTypes>
