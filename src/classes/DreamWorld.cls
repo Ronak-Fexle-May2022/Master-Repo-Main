@@ -1,7 +1,7 @@
 public class DreamWorld {
     
     public DreamWorld(){
-        system.debug('This is a Dream World project');
+        system.debug('This is a DreamWorld project');
     }
 
 }
