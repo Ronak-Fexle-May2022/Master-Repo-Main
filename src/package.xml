@@ -1,140 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>HelloWorld1</members>
-        <members>HelloWorld_1</members>
-        <members>HelloWorld_2</members>
-        <members>MyQueryExample</members>
-        <members>StudentData</members>
+        <members>DemoAssignment4</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>College__c.Department__c</members>
-        <members>Contact.Languages__c</members>
-        <members>Contact.Level__c</members>
-        <members>Contact.Pan_Card__c</members>
-        <members>Contact.Year_Of_Class__c</members>
-        <members>Contact.student_no__c</members>
-        <members>Dream_World__c.Dream_World_Title__c</members>
-        <members>Lead.CurrentGenerators__c</members>
-        <members>Lead.NumberofLocations__c</members>
-        <members>Lead.Primary__c</members>
-        <members>Lead.ProductInterest__c</members>
-        <members>Lead.SICCode__c</members>
-        <members>Mentor__c.Employee__c</members>
-        <members>Mentor__c.Trainer__c</members>
-        <members>Opportunity.CurrentGenerators__c</members>
-        <members>Opportunity.DeliveryInstallationStatus__c</members>
-        <members>Opportunity.MainCompetitors__c</members>
-        <members>Opportunity.OrderNumber__c</members>
-        <members>Opportunity.TrackingNumber__c</members>
-        <members>Pan_Card__c.Address__c</members>
-        <members>Pan_Card__c.Father_Name__c</members>
-        <members>Pan_Card__c.Mobile_Number__c</members>
-        <members>Pan_Card__c.Pan_Card_Number__c</members>
-        <members>StudentSubjects__c.Student__c</members>
-        <members>StudentSubjects__c.Subject__c</members>
-        <members>Student__c.Account_Number__c</members>
-        <members>Student__c.Address__c</members>
-        <members>Student__c.Bank_Name__c</members>
-        <members>Student__c.Bank_Phone_Number__c</members>
-        <members>Student__c.City__c</members>
-        <members>Student__c.Class_Info__c</members>
-        <members>Student__c.Class__c</members>
-        <members>Student__c.College_Office__c</members>
-        <members>Student__c.Current_Year__c</members>
-        <members>Student__c.Donation_Amount__c</members>
-        <members>Student__c.Email__c</members>
-        <members>Student__c.Exam_Fees_Submitted__c</members>
-        <members>Student__c.Father_Mobile_Number__c</members>
-        <members>Student__c.Father_Name__c</members>
-        <members>Student__c.Fees_Details__c</members>
-        <members>Student__c.Fees_Submitted__c</members>
-        <members>Student__c.Fees__c</members>
-        <members>Student__c.HomePhone__c</members>
-        <members>Student__c.IFSC_Code__c</members>
-        <members>Student__c.Is_Donation__c</members>
-        <members>Student__c.Linkdin__c</members>
-        <members>Student__c.Mobile_Number__c</members>
-        <members>Student__c.Name__c</members>
-        <members>Student__c.Overall_Grade__c</members>
-        <members>Student__c.Pending_Exam_Fees__c</members>
-        <members>Student__c.Pending_Fees_Amount__c</members>
-        <members>Student__c.Pending_Overall_Amount__c</members>
-        <members>Student__c.RollNumber__c</members>
-        <members>Student__c.Section__c</members>
-        <members>Student__c.Semester_Details__c</members>
-        <members>Student__c.State__c</members>
-        <members>Student__c.Stream__c</members>
-        <members>Student__c.Student_Address__c</members>
-        <members>Student__c.Student_MobNo__c</members>
-        <members>Student__c.Student_Personal_Info__c</members>
-        <members>Student__c.Subjects_in_which_Back__c</members>
-        <members>Student__c.X1st_Sem_Back__c</members>
-        <members>Student__c.X1st_Sem_Percentage__c</members>
-        <members>Student__c.X2nd_Sem_Percentage__c</members>
-        <members>Student__c.X3rdSemPercentage__c</members>
-        <members>Student__c.X3rd_Sem_Back__c</members>
-        <members>Student__c.X3rd_Sem_Percentage__c</members>
-        <members>Student__c.X4th_Sem_Back__c</members>
-        <members>Student__c.X4th_Sem_Percentage__c</members>
-        <members>Teacher__c.College__c</members>
-        <members>Teacher__c.Experience__c</members>
-        <members>Teacher__c.Subject__c</members>
-        <members>Trainees__c.Mentor__c</members>
-        <members>Trainer__c.Company_CEO__c</members>
-        <members>Trainer__c.Employee__c</members>
-        <members>Year_Of_Class__c.No_of_Student__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>College__c</members>
-        <members>Company_CEO__c</members>
-        <members>Dream_World__c</members>
-        <members>Employee__c</members>
-        <members>Mentor__c</members>
-        <members>Pan_Card__c</members>
-        <members>StudentSubjects__c</members>
-        <members>Student__c</members>
-        <members>Subject__c</members>
-        <members>Teacher__c</members>
-        <members>Trainees__c</members>
-        <members>Trainer__c</members>
-        <members>Year_Of_Class__c</members>
-        <members>myobj__c</members>
+        <members>Demo_Assignment4__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>College__c</members>
-        <members>Company_CEO__c</members>
-        <members>Employee__c</members>
-        <members>Pan_Card__c</members>
-        <members>StudentSubjects__c</members>
-        <members>Student__c</members>
-        <members>Year_Of_Class__c</members>
+        <members>Demo_Assignment4__c</members>
         <name>CustomTab</name>
     </types>
-    <types>
-        <members>College__c-College Layout</members>
-        <members>Company_CEO__c-Company CEO Layout</members>
-        <members>Employee__c-Employee Layout</members>
-        <members>Mentor__c-Mentor Layout</members>
-        <members>Pan_Card__c-Pan Card Layout</members>
-        <members>StudentSubjects__c-StudentSubjects Layout</members>
-        <members>Student__c-Registrar Layout</members>
-        <members>Student__c-Teacher Layout</members>
-        <members>Subject__c-Subject Layout</members>
-        <members>Teacher__c-Teacher Layout</members>
-        <members>Trainees__c-Trainees Layout</members>
-        <members>Trainer__c-Trainer Layout</members>
-        <members>Year_Of_Class__c-Year Of Class Layout</members>
-        <members>myobj__c-myobj Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Student__c.Registrar</members>
-        <members>Student__c.Teacher</members>
-        <name>RecordType</name>
-    </types>
-    <version>53.0</version>
+    <version>54.0</version>
 </Package>
