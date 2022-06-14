@@ -154,27 +154,29 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>Email_id__c</fullName>
+        <fullName>No_of_Student__c</fullName>
         <externalId>false</externalId>
-        <label>Email id</label>
+        <label>No_of_Student</label>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Email</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
-    <label>Demo_Assignment5</label>
+    <label>Year Of Class</label>
     <listViews>
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
-        <label>Demo_Assignment4 Name</label>
+        <label>Year Of Class Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Demo_Assignments5</pluralLabel>
+    <pluralLabel>Year Of Classes</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
