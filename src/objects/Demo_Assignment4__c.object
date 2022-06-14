@@ -153,6 +153,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Email_id__c</fullName>
+        <externalId>false</externalId>
+        <label>Email id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <label>Demo_Assignment5</label>
     <fields></fields>
     <label>Demo_Assignment4</label></label>
     <listViews>
@@ -165,7 +176,7 @@
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Demo_Assignments4</pluralLabel>
+    <pluralLabel>Demo_Assignments5</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

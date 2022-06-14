@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>DemoAssignment4</members>
+        <members>DemoAssignment5</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>Demo_Assignment4__c.Email_id__c</members>
-        <members>Demo_Assignment4__c.Project_Description__c</members>
-        <name>CustomField</name>
     </types>
     <types>
         <members>Demo_Assignment4__c</members>
