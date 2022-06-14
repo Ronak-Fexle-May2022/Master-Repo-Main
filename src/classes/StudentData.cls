@@ -45,6 +45,7 @@ public class StudentData {
         s1.City__c='Bhilwara';
         s1.State__c='Rajasthan';
         insert s1;
+        
         List<Student__c> studentList= [select id,Name,RollNumber__c,Father_Name__c,Email__c,City__c,Overall_Grade__c From Student__c ];
          system.debug('check student data: '+ studentList);
             
