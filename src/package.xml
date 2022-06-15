@@ -3,6 +3,7 @@
     <types>
         <members>DemoAssignment5</members>
         <members>DreamWorld</members>
+        <members>HelloWorld</members>
         <members>MyQueryExample</members>
         <members>StudentData</members>
         <name>ApexClass</name>
