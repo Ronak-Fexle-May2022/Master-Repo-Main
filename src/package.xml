@@ -42,5 +42,10 @@
         <members>Year_Of_Class__c-Year Of Class Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Student__c.Registrar</members>
+        <members>Student__c.Teacher</members>
+        <name>RecordType</name>
+    </types>
     <version>53.0</version>
 </Package>
