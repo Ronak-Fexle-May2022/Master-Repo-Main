@@ -1,4 +1,11 @@
 
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ClassesExamples</members>
+        <members>ExampleCallbyValue</members>
+        <members>ExampleMethodOverloading</members>
+        <members>Plotter</members>
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
@@ -12,6 +19,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>HierarchicalCollectionexample</members>
+
         <name>ApexClass</name>
     </types>
     <version>53.0</version>
