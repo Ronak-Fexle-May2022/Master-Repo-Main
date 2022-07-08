@@ -1,5 +1,7 @@
 /*
+
       * Assignment15
+
       * Created By : Ronak Pareek
       * Instance Keyword
     */ 
@@ -15,4 +17,7 @@ public with sharing class InstanceExample {
             Contact c =(Contact)s;
          }
     }
+
+}
+
 }
