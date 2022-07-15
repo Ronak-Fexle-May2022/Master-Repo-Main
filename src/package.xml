@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
@@ -5,7 +6,189 @@
         <members>DMLQuery</members>
         <members>ExIdExample</members>
         <members>ExceptionExample</members>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CountyCodeExample</members>
+		<members>InsertsObjectExample</members>
+		<members>InstanceExample</members>
+		<name>ApexClass</name>
+	</types>
+	<version>53.0</version>
+</Package>
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CustomerPurchaseOrder</members>
+		<members>EmployeePurchaseOrder</members>
+		<members>InstanceExample</members>
+		<members>Marker</members>
+		<members>MyClass</members>
+		<members>MyTestThis</members>
+		<members>ProcessPurchaseOrder</members>
+		<members>PurchaseOrder</members>
+		<members>SellerPurchaseOrder</members>
+		<name>ApexClass</name>
+	</types>
+	<version>53.0</version>
+</Package>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ClassesExamples</members>
+        <members>ExampleCallbyValue</members>
+        <members>ExampleMethodOverloading</members>
+        <members>Plotter</members>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Expressions</members>
+        <name>ApexClass</name>
+    </types>
+    <version>54.0</version>
+</Package>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>HierarchicalCollectionexample</members>
         <name>ApexClass</name>
     </types>
     <version>53.0</version>
+</Package>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>DemoAssignment5</members>
+		<members>DemoSample4</members>
+		<members>DreamWorld</members>
+		<members>HelloWorld</members>
+		<members>MyQueryExample</members>
+		<members>Patterns</members>
+		<members>SampleDemo</members>
+		<members>SqlExample</members>
+		<members>StudentData</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>College__c.Department__c</members>
+		<members>Contact.Pan_Card__c</members>
+		<members>Contact.Year_Of_Class__c</members>
+		<members>Contact.student_no__c</members>
+		<members>Demo_Assignment4__c.Email_id__c</members>
+		<members>Dream_World__c.Dream_World_Title__c</members>
+		<members>Mentor__c.Employee__c</members>
+		<members>Mentor__c.Trainer__c</members>
+		<members>Pan_Card__c.Address__c</members>
+		<members>Pan_Card__c.Father_Name__c</members>
+		<members>Pan_Card__c.Mobile_Number__c</members>
+		<members>Pan_Card__c.Pan_Card_Number__c</members>
+		<members>StudentSubjects__c.Student__c</members>
+		<members>StudentSubjects__c.Subject__c</members>
+		<members>Student__c.Account_Number__c</members>
+		<members>Student__c.Address__c</members>
+		<members>Student__c.Bank_Name__c</members>
+		<members>Student__c.Bank_Phone_Number__c</members>
+		<members>Student__c.City__c</members>
+		<members>Student__c.Class_Info__c</members>
+		<members>Student__c.Class__c</members>
+		<members>Student__c.College_Office__c</members>
+		<members>Student__c.Create_DateTime__c</members>
+		<members>Student__c.Current_Year__c</members>
+		<members>Student__c.Date__c</members>
+		<members>Student__c.Donation_Amount__c</members>
+		<members>Student__c.Email__c</members>
+		<members>Student__c.Exam_Fees_Submitted__c</members>
+		<members>Student__c.Father_Mobile_Number__c</members>
+		<members>Student__c.Father_Name__c</members>
+		<members>Student__c.Fees_Details__c</members>
+		<members>Student__c.Fees_Submitted__c</members>
+		<members>Student__c.Fees__c</members>
+		<members>Student__c.HomePhone__c</members>
+		<members>Student__c.IFSC_Code__c</members>
+		<members>Student__c.Is_Donation__c</members>
+		<members>Student__c.Linkdin__c</members>
+		<members>Student__c.Mobile_Number__c</members>
+		<members>Student__c.Name__c</members>
+		<members>Student__c.Overall_Grade__c</members>
+		<members>Student__c.Pending_Exam_Fees__c</members>
+		<members>Student__c.Pending_Fees_Amount__c</members>
+		<members>Student__c.Pending_Overall_Amount__c</members>
+		<members>Student__c.RollNumber__c</members>
+		<members>Student__c.Section__c</members>
+		<members>Student__c.Semester_Details__c</members>
+		<members>Student__c.State__c</members>
+		<members>Student__c.Stream__c</members>
+		<members>Student__c.Student_Address__c</members>
+		<members>Student__c.Student_MobNo__c</members>
+		<members>Student__c.Student_Personal_Info__c</members>
+		<members>Student__c.Subjects_in_which_Back__c</members>
+		<members>Student__c.X1st_Sem_Back__c</members>
+		<members>Student__c.X1st_Sem_Percentage__c</members>
+		<members>Student__c.X2nd_Sem_Percentage__c</members>
+		<members>Student__c.X3rdSemPercentage__c</members>
+		<members>Student__c.X3rd_Sem_Back__c</members>
+		<members>Student__c.X3rd_Sem_Percentage__c</members>
+		<members>Student__c.X4th_Sem_Back__c</members>
+		<members>Student__c.X4th_Sem_Percentage__c</members>
+		<members>Teacher__c.College__c</members>
+		<members>Teacher__c.Experience__c</members>
+		<members>Teacher__c.Subject__c</members>
+		<members>Trainees__c.Mentor__c</members>
+		<members>Trainer__c.Company_CEO__c</members>
+		<members>Trainer__c.Employee__c</members>
+		<members>Year_Of_Class__c.No_of_Student__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>College__c</members>
+		<members>Company_CEO__c</members>
+		<members>Contact</members>
+		<members>Demo_Assignment4__c</members>
+		<members>Dream_World__c</members>
+		<members>Employee__c</members>
+		<members>Mentor__c</members>
+		<members>Pan_Card__c</members>
+		<members>StudentSubjects__c</members>
+		<members>Student__c</members>
+		<members>Subject__c</members>
+		<members>Teacher__c</members>
+		<members>Trainees__c</members>
+		<members>Trainer__c</members>
+		<members>Year_Of_Class__c</members>
+		<members>myobj__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>College__c-College Layout</members>
+		<members>Company_CEO__c-Company CEO Layout</members>
+		<members>Demo_Assignment4__c-Demo_Assignment4 Layout</members>
+		<members>Dream_World__c-Dream World Layout</members>
+		<members>Employee__c-Employee Layout</members>
+		<members>Mentor__c-Mentor Layout</members>
+		<members>Pan_Card__c-Pan Card Layout</members>
+		<members>StudentSubjects__c-StudentSubjects Layout</members>
+		<members>Student__c-Registrar Layout</members>
+		<members>Student__c-Teacher Layout</members>
+		<members>Subject__c-Subject Layout</members>
+		<members>Teacher__c-Teacher Layout</members>
+		<members>Trainees__c-Trainees Layout</members>
+		<members>Trainer__c-Trainer Layout</members>
+		<members>Year_Of_Class__c-Year Of Class Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>Student__c.Registrar</members>
+		<members>Student__c.Teacher</members>
+		<name>RecordType</name>
+	</types>
+	<version>53.0</version>
 </Package>
