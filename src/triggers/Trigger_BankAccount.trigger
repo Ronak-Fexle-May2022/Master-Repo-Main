@@ -18,14 +18,14 @@ trigger Trigger_BankAccount on Account (before insert,before update, after inser
 
         if(Trigger.isInsert && Trigger.isBefore){
 
-            HelperClass.accUpdate(Trigger.New);
+            HelperClass.chRecord(Trigger.New,Trigger.OldMap);
+            system.debug('Check List ::: Trigger.New ' + Trigger.New);
          }
-
         if(Trigger.isUpdate && Trigger.isBefore) {
            
             system.debug('Check Update List ::: Trigger.New ' + Trigger.New);
             system.debug('Check Update List ::: Trigger.old ' + Trigger.Old);
-            HelperClass.chRecord(Trigger.New,Trigger.Old);
+            HelperClass.chRecord(Trigger.New,Trigger.OldMap);
 
             if(Trigger.New[0].Type != Trigger.old[0].Type){
 
